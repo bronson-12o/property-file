@@ -1,0 +1,19 @@
+# This repository is a curated public showcase.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.rds
+*.RData
+*.pkl
+*.safetensors
+node_modules/
+.venv/
+__pycache__/
+.wrangler/
+.openai/
+corpus/
+cache/
+.coverage
