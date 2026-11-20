@@ -22,7 +22,7 @@ The local application uses Python, FastAPI, React, Qdrant, and PDF text retrieva
 
 [Interactive fictional demo](https://bronsonhatch.com/property-file-demo) · [Case study](https://bronsonhatch.com/#work/propertyfile) · [Portfolio](https://bronsonhatch.com)
 
-This repository is a public project overview. The application source is maintained privately, so cloning this showcase does not start a working server. The public demo uses a saved, verified extraction from a fictional statement. Visitors can select figures and inspect their source locations. It performs no uploads or live AI calls and does not connect to the private workspace. The full application runs locally.
+This repository is a public project overview. The application source is maintained privately, so cloning this showcase does not start a working server. The public demo uses a saved extraction checked against its fictional source from a fictional statement. Visitors can select figures and inspect their source locations. It performs no uploads or live AI calls and does not connect to the private workspace. The full application runs locally.
 
 ## Evidence and limits
 
@@ -35,3 +35,11 @@ Production multi-user authorization, hostile-document isolation, and broader ind
 Document ingestion, evidence-aware data structures, retrieval endpoints, source-page UI, financial validation, and regression checks.
 
 [Use and attribution](USE-AND-ATTRIBUTION.md). Publisher source documents are not redistributed in this showcase.
+
+## Latest scan checks
+
+The November 20 precision update improved the unchanged faint-mark controls from 18/22 to 22/22, and passed 50 additional independently drawn compositing controls. It withholds ambiguous crops rather than discarding a possible dot or sign. These geometric tests are not an accuracy percentage for unfamiliar documents.
+
+Nine selected account/month/value cells from raster copies of three statements at one property still pass on both Mac and Linux. The fixed small-text/tilt development suite remains 8/10 core cases on each platform: two tiny-text cases are still withheld. Scanned candidates require source review before financial use.
+
+![Fictional source review demo](media/fictional-demo.webp)
