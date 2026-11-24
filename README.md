@@ -1,39 +1,5 @@
 # Property File
 
-Follow a financial figure back to its source.
-
-## The problem
-
-A retrieved number needs an account, reporting period, currency, basis and review status before it can support a property decision. Property File keeps those checks beside the original document.
-
-## How it works
-
-![Simplified project architecture](docs/presentation/system-overview.svg)
-
-The diagram summarizes the documented workflow; it is not a performance result or a generated application screenshot.
-
-## A view of the project
-
-![Property File — existing project image](media/fictional-demo.webp)
-
-Saved fictional source-review demonstration; the displayed candidates remain unreviewed.
-
-## Run or inspect the work
-
-[Open the interactive fictional demo](https://bronsonhatch.com/property-file-demo) · [Read the portfolio case](https://bronsonhatch.com/#work/propertyfile)
-
-## Evidence and scope
-
-The November 2026 engineering checks cover source binding, deterministic calculations, review gates and recovery. The public demo contains 39 saved, unreviewed candidates from one generated fictional statement.
-
-This repository is the public case study, not a runnable upload server. Full source stays private. Selected development cases do not establish accuracy on unfamiliar documents; machine extraction is not human approval.
-
-<details>
-
-<summary>Detailed setup, original screenshots and project reference</summary>
-
-# Property File
-
 A document workspace for checking property financial information against its source pages.
 
 I built Property File to keep a property question, extracted financial observations, and supporting document pages together. A figure needs its reporting period, basis, currency, scale, and review status before someone can use it confidently.
@@ -78,4 +44,4 @@ Nine selected account/month/value cells from raster copies of three statements a
 
 ![Fictional source review demo](media/fictional-demo.webp)
 
-</details>
+![Project structure](docs/presentation/system-overview.svg)
